@@ -116,3 +116,39 @@ body {
     color:white;
 }
 
+contact{
+    background-color: rgb(156, 201, 240);
+    display: flex;
+    
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.contact__title{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.contact__title-text{
+    text-align: left;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+.contact__text{
+    width: 350px;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+}
+.contact__plaintext{
+    text-align: center;
+}
+.contact__images{
+   display: flex;
+   align-items: center;
+   margin-left: 50px;
+}
+
+
