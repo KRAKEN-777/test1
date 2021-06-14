@@ -131,3 +131,88 @@ color: #FFFFFF;
 .project_text:hover{
     text-shadow: 0px 5px #060606;
 }
+=======
+.diyorxoja__news{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.news__content{
+    padding: 15px;
+    background: #B71C1C;
+    max-height: 380px;
+    max-width: 350px;
+}
+.content__title{
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.content__text{
+    font-size: 16px;
+    line-height: 19px;
+    color: #EBEBEB;
+}
+
+.home__title {
+    color:rgb(20, 49, 211);
+    font-size:45px;
+    text-shadow: 1px 1px 5px rgb(150, 0.25, 250);
+    text-align: center;
+    margin-bottom:20px;
+}
+.home__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.home__descr {
+    width:30%;
+    line-height: 25px;
+    font-size: 20px;
+    border:2px solid rgba(207, 47, 221, 0.459);
+    box-shadow: 0 0 5px rgb(150, 100, 50);
+    padding:5px;
+    transition: 0.5s linear;
+}
+.home__descr:hover {
+    background-color:rgb(72, 24, 173);
+    color:white;
+}
+
+contact{
+    background-color: rgb(156, 201, 240);
+    display: flex;
+    
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.contact__title{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.contact__title-text{
+    text-align: left;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+.contact__text{
+    width: 350px;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+}
+.contact__plaintext{
+    text-align: center;
+}
+.contact__images{
+   display: flex;
+   align-items: center;
+   margin-left: 50px;
+}
